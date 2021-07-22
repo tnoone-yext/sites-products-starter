@@ -1,8 +1,5 @@
 {
-	"test": "GLOBAL STRING FROM GLOBAL.JSON!!!!!",
-	"name": "Luc's Fashion Warehouse",
-	"primary_color": "#003a70",
-	"secondary_color": "#B5C428",
+	"name": "Yext's Fashion Warehouse",
     "photoGallery": [
 		{
 			"image": {
@@ -13,7 +10,7 @@
 		{
 			"image": {
 			  "url": "/images/breed.jpg",
-			  "name": "BReed"
+			  "name": "Bryan"
 			}
 		},
 		{
@@ -25,7 +22,7 @@
 		{
 			"image": {
 			  "url": "/images/pranjal.jpg",
-			  "name": "Pranjal - Captain Falcon"
+			  "name": "Pranjal"
 			}
 		},
 		{
