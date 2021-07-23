@@ -1,5 +1,6 @@
 module.exports = {
-    purge: [
+  mode: "jit",  
+  purge: [
       './partials/**/*.hbs', 
       './pages/**/*.hbs',
       './templates/**/*.hbs',

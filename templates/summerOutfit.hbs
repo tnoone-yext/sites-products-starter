@@ -30,25 +30,25 @@
     <title>{{name}}</title>
     <meta name="description" content=This is {{name}}.>
     {{>head}}
-    {{!-- <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> --}}
-    <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
 
   {{>styles}}
 
 </head>
 
-    <body>
-        
-    {{>navbar}}
+<div class="container mx-auto">
+  <body>
+      
+  {{>navbar}}
 
 
-    <div class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-600 text-4xl mb-8 pt-6">
-        THIS PAGE IS EMPTY 
-    </div>
+  <div class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-600 text-4xl mb-8 pt-6">
+      THIS PAGE IS EMPTY 
+  </div>
 
 
-    </body> 
+  </body> 
+</div>
 
 {{>footer}}
 
