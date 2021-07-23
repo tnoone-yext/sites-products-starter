@@ -40,7 +40,7 @@
 
 </head>
 
-  <div class="container mx-auto">
+  <div class="container mx-auto px-4">
     <body>
         
     {{>navbar}}
@@ -64,7 +64,7 @@
                 <div class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-400 text-3xl mb-8">
                     ${{price.value}} 
                 </div>
-                <p class="mt-8 mb-8 text-xl">{{richTextDescription}}</p>
+                <p class="mt-8 mb-8 text-xl">{{ConvertRTFToHTML richTextDescription}}</p>
                 <p class="mt-8 text-xl"><b>Color:</b> {{color}}</p>
             </div>
 
