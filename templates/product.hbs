@@ -5,23 +5,18 @@
         "source": "knowledgeGraph",
         "destination": "pages",
       "fields": [
-        "id",
-        "uid",
-        "richTextDescription",
         "name",
-        "slug",
-        "price",
-        "color",
-        "brand",
-        "photoGallery"
+        "id",
+        "description",
+        "meta"
       ],
       "filter": {
         "entityTypes": [
-          "product"
+          "location"
         ]
       }
     },
-    "urlFormat": "{{slug}}"
+    "urlFormat": "{{.id}}-{{.meta.locale}}-go.html"
 }
 ---
 
