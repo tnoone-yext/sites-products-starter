@@ -19,6 +19,7 @@
           "locales": ["es", "en"]
       }
     },
+    "alternateLanguageFields": ["description"],
     "urlFormat": "{{id}}-{{meta.locale}}-go.html"
 }
 ---
@@ -35,7 +36,8 @@
 
 <div class="container mx-auto px-4">
     <body>
-        Hello
+        {{description}}
+        {{alternateLanguageFields.es.description}}
     </body> 
 </div>
 
