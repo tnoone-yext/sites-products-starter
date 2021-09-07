@@ -20,7 +20,7 @@
           "locales": ["es", "en"]
       }
     },
-    "alternateLanguageFields": ["description"],
+    "alternateLanguageFields": ["description", "neighborhood"],
     "urlFormat": "{{id}}-{{meta.locale}}-go.html"
 }
 ---
@@ -40,6 +40,7 @@
         <p>Description: {{description}}</p>
         <p>Spanish Description: {{alternateLanguageFields.es.description}}</p>
         <p>Neighborhood: {{neighborhood}}</p>
+        <p>Spanish neighborhood: {{alternateLanguageFields.es.neighborhood}}</p>
     </body> 
 </div>
 
