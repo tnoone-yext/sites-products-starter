@@ -1,0 +1,47 @@
+---
+{
+    "stream": {
+        "$id": "tnoone-altlocale-streamoutput-testing-healthcare",
+        "source": "knowledgeGraph",
+        "destination": "pages",
+      "fields": [
+        "name",
+        "id",
+        "meta",
+        "holidayHours"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      },
+      "localization": {
+          "locales": ["en"]
+      }
+    },
+    "urlFormat": "{{$profile.id}}-{{$profile.meta.locale}}-go.html"
+    "htmlTemplate": "eps.soy"
+}
+---
+
+{namespace eps}
+
+/**
+ * @param profile
+*/
+{template .soy}
+  <div class="container mx-auto px-4">
+    <body>
+      <p>Name {$profile.name}</p>
+      <p>Id {$profile.id}</p>
+      <p>Holiday hours {$profile.holidayHours}</p>
+    </body>
+  </div>
+{/template}
+
+/**
+ * @param profile
+ */
+{template .url}
+    {{$profile.id}}-{{$profile.meta.locale}}-go.html
+{/template}
