@@ -1,30 +1,26 @@
 ---
 {
     "stream": {
-        "$id": "products",
+        "$id": "locations",
         "source": "knowledgeGraph",
         "destination": "pages",
       "fields": [
         "id",
         "uid",
-        "richTextDescription",
+        "description",
         "name",
-        "slug",
-        "price",
-        "color",
-        "brand",
-        "photoGallery"
+        "meta"
       ],
       "localization": {
           "locales": ["en"]
       },
       "filter": {
         "entityTypes": [
-          "product"
+          "location"
         ]
       }
     },
-    "urlFormat": "{{slug}}"
+    "urlFormat": "loc-{{id}}-{{meta.locale}}-hbs.html"
 }
 ---
 
@@ -46,23 +42,11 @@
         {{>navbar}}
             <div class="grid grid-cols-2 divide-x gap-3 pl-10">
                 <div class="col-span-1">
-                    <div class="w-full md:w-full lg:scale-80 p-6 flex flex-col space-y-6">
-                        {{>photoGallery photoGallery}}
-                    </div>
-                </div>
-                <div class="col-span-1">
                     <div class="container py-8 px-6 mx-auto">
                         <div class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-4xl mb-8">
                             {{name}} 
                         </div>
-                        <div class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-600 text-3xl mb-8">
-                            {{brand}} 
-                        </div>
-                        <div class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-400 text-3xl mb-8">
-                            ${{price.value}} 
-                        </div>
-                        <p class="mt-8 mb-8 text-xl">{{convertRTFToHTML richTextDescription}}</p>
-                        <p class="mt-8 text-xl"><b>Color:</b> {{color}}</p>
+                        <p class="mt-8 mb-8 text-xl">{{description}}</p>
                     </div>
                 </div>
             </div>
