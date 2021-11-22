@@ -4,8 +4,8 @@
             "name": "locati",
             "templateType": "HBS",
             "entityPageSet": {
-                "htmlTemplate": "location.hbs",
-                "urlTemplate": "location_url.hbs"
+                "htmlTemplate": "location",
+                "urlTemplate": "location_url"
             },
             "streamId": "locations"
         }
