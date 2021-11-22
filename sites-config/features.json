@@ -1,0 +1,36 @@
+{
+    "features": [
+        {
+            "name": "locati",
+            "templateType": "HBS",
+            "entityPageSet": {
+                "htmlTemplate": "location.hbs",
+                "urlTemplate": "location_html.hbs"
+            },
+            "streamId": "locations"
+        }
+    ],
+    "templateVersion": 8,
+    "streams": [
+        {
+            "$id": "locations",
+            "source": "knowledgeGraph",
+            "destination": "pages",
+            "fields": [
+                "id",
+                "uid",
+                "description",
+                "name",
+                "meta"
+            ],
+            "localization": {
+                "locales": ["en"]
+            },
+            "filter": {
+                "entityTypes": [
+                "location"
+                ]
+            }
+        }
+    ]
+}
