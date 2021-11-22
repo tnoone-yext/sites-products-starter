@@ -5,7 +5,7 @@
             "templateType": "HBS",
             "entityPageSet": {
                 "htmlTemplate": "location.hbs",
-                "urlTemplate": "location_html.hbs"
+                "urlTemplate": "location_url.hbs"
             },
             "streamId": "locations"
         }
