@@ -21,7 +21,8 @@
                 "uid",
                 "description",
                 "name",
-                "meta"
+                "meta",
+                "hours"
             ],
             "localization": {
                 "locales": ["en"]
