@@ -28,8 +28,8 @@
                 "locales": ["en"]
             },
             "filter": {
-                "entityTypes": [
-                "location"
+                "savedFilterIds": [
+                    "136816059"
                 ]
             }
         }
