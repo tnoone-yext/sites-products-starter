@@ -30,7 +30,7 @@
         "build_cmd": "npm run build"
     },
     "livePreview": {
-        "serve_setup_cmd": "echo setup",
+        "serve_setup_cmd": "npx yext version",
         "serve_cmd": "echo serve"
     },
     "watch_cmd": "npm run watch"
