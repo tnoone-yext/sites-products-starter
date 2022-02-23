@@ -30,8 +30,8 @@
         "build_cmd": "npm run build"
     },
     "livePreview": {
-        "serve_setup_cmd": "ls /bin/bash",
-        "serve_cmd": "ls /bin/bash"
+        "serve_setup_cmd": "echo serve",
+        "serve_cmd": "echo serving"
     },
     "watch_cmd": "npm run watch"
 }
