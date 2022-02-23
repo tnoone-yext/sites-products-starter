@@ -10,7 +10,6 @@
             "streamId": "locations"
         }
     ],
-    "templateVersion": 8,
     "streams": [
         {
             "$id": "locations",
