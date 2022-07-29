@@ -7,12 +7,12 @@
                 "htmlTemplate": "location",
                 "urlTemplate": "location_url"
             },
-            "streamId": "locationsv3"
+            "streamId": "locationsv4"
         }
     ],
     "streams": [
         {
-            "$id": "locationsv3",
+            "$id": "locationsv4",
             "source": "knowledgeGraph",
             "destination": "pages",
             "fields": [
