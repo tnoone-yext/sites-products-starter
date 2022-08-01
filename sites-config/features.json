@@ -8,5 +8,6 @@
         "urlTemplate": "desktop.url"
       }
     }
-  ]
+  ],
+  "locales": ["en", "es", "fr"]
 }
