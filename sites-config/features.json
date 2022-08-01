@@ -1,36 +1,14 @@
 {
     "features": [
         {
-            "name": "locati",
-            "templateType": "HBS",
-            "entityPageSet": {
-                "htmlTemplate": "location",
-                "urlTemplate": "location_url"
-            },
-            "streamId": "locationsv4"
-        }
-    ],
-    "streams": [
-        {
-            "$id": "locationsv4",
-            "source": "knowledgeGraph",
-            "destination": "pages",
-            "fields": [
-                "id",
-                "uid",
-                "description",
-                "name",
-                "meta",
-                "hours"
-            ],
-            "localization": {
-                "locales": ["en"]
-            },
-            "filter": {
-                "entityTypes": [
-                    "location"
-                ]
+            "name": "Index",
+            "staticPage": {
+                "urlTemplate": "url_template",
+                "htmlTemplate": "template"
             }
         }
+    ],
+    "locales": [
+        "en", "fr"
     ]
 }
