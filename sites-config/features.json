@@ -3,6 +3,7 @@
   "features": [
     {
       "name": "MultiIndex",
+      "templateType": "SOY",
       "staticPage": {
         "htmlTemplate": "desktop.default",
         "urlTemplate": "desktop.url"
