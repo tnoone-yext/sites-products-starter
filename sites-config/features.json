@@ -1,14 +1,12 @@
 {
-    "features": [
-        {
-            "name": "Index",
-            "staticPage": {
-                "urlTemplate": "url_template",
-                "htmlTemplate": "template"
-            }
-        }
-    ],
-    "locales": [
-        "en", "fr"
-    ]
+  "templateVersion": 0,
+  "features": [
+    {
+      "name": "MultiIndex",
+      "staticPage": {
+        "htmlTemplate": "desktop.default",
+        "urlTemplate": "desktop.url"
+      }
+    }
+  ]
 }
