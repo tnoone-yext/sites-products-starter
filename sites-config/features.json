@@ -12,7 +12,7 @@
     ],
     "streams": [
         {
-            "$id": "locationsv4",
+            "$id": "locationsv5",
             "source": "knowledgeGraph",
             "destination": "pages",
             "fields": [
