@@ -7,7 +7,7 @@
                 "htmlTemplate": "location",
                 "urlTemplate": "location_url"
             },
-            "streamId": "locationsv4"
+            "streamId": "locationsv5"
         }
     ],
     "streams": [
